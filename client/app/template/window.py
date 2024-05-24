@@ -16,7 +16,7 @@ class Ui_Main_Window(object):
         Main_Window.setObjectName("Main_Window")
         Main_Window.resize(744, 561)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("/Users/user/PycharmProjects/paint_online/img/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Main_Window.setWindowIcon(icon)
         Main_Window.setAutoFillBackground(False)
         Main_Window.setStyleSheet("background-color: rgb(108, 166, 205);")
@@ -73,7 +73,7 @@ class Ui_Main_Window(object):
 "padding: 3 3px;\n"
 "background-color: rgb(245, 245, 245);")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("pencil.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("/Users/user/PycharmProjects/paint_online/img/pencil.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_pencil.setIcon(icon1)
         self.button_pencil.setIconSize(QtCore.QSize(25, 25))
         self.button_pencil.setObjectName("button_pencil")
@@ -84,7 +84,7 @@ class Ui_Main_Window(object):
 "padding: 3 3px;\n"
 "background-color: rgb(245, 245, 245);")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("clear.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("C:/Users/user/PycharmProjects/paint_online/img/clear.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_clear.setIcon(icon2)
         self.button_clear.setIconSize(QtCore.QSize(25, 25))
         self.button_clear.setObjectName("button_clear")
@@ -135,7 +135,7 @@ class Ui_Main_Window(object):
 "padding: 3 3px;\n"
 "background-color: rgb(245, 245, 245);")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("eraser.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("/Users/user/PycharmProjects/paint_online/img/eraser.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_eraser.setIcon(icon3)
         self.button_eraser.setIconSize(QtCore.QSize(25, 25))
         self.button_eraser.setObjectName("button_eraser")
